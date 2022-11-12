@@ -1,0 +1,472 @@
+Nov 12 00:00:01 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/1 with BPDU Guard enabled. Disabling port.
+Nov 12 00:00:00 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:01 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:02 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:02 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:00:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:01 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.3/00:00:00 YEKT Fri Nov 12 2021])
+Nov 12 00:00:02 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.3/00:00:01 YEKT Fri Nov 12 2021])
+Nov 12 00:00:02 10.11.15.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to down
+Nov 12 00:00:02 192.168.75.214 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:00:02 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:00:02 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:00:02 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:02 172.30.70.60 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/46
+Nov 12 00:00:02 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to down
+Nov 12 00:00:03 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to down
+Nov 12 00:00:02 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2197) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:00:03 192.168.75.214 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:00:03 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.3/00:00:02 YEKT Fri Nov 12 2021])
+Nov 12 00:00:04 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:04 10.11.15.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to up
+Nov 12 00:00:04 161.8.54.24 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/11 (44), with kkc-PerelivChuguna FastEthernet0/1 (56).
+Nov 12 00:00:04 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:00:05 172.30.70.60 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/46 with BPDU Guard enabled. Disabling port.
+Nov 12 00:00:06 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:07 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:07 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2197) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:00:08 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:08 192.168.75.214 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:00:09 192.168.75.214 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:00:09 172.30.81.22 001095: Nov 12 00:00:08: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet3/2, changed state to up
+Nov 12 00:00:09 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:10 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:09 10.8.240.14 %ILPOWER-3-CONTROLLER_PORT_ERR: Controller port error, Interface Gi3/0/20: Power given, but Power Controller does not report Power Good (ZU_2fl-2960-3)
+Nov 12 00:00:09 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.4/00:00:08 YEKT Fri Nov 12 2021])
+Nov 12 00:00:10 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.4/00:00:09 YEKT Fri Nov 12 2021])
+Nov 12 00:00:09 10.8.141.163 %IOSXE_INFRA-6-PROCPATH_CLIENT_HOG: IOS shim client 'chasfs' has taken 284 msec (runtime: 284 msec) to process a 'stack chasfs fd' message
+Nov 12 00:00:10 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:00:10 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:00:10 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:11 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.4/00:00:10 YEKT Fri Nov 12 2021])
+Nov 12 00:00:12 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.4/00:00:11 YEKT Fri Nov 12 2021])
+Nov 12 00:00:11 172.30.70.27 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet1/0/50 (115), with Cisco GigabitEthernet0/16 (1).
+Nov 12 00:00:11 192.168.75.214 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to up
+Nov 12 00:00:12 192.168.75.214 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+Nov 12 00:00:12 10.11.15.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to down
+Nov 12 00:00:13 10.11.15.10 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/12, changed state to down
+Nov 12 00:00:12 10.8.240.14 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/20, changed state to up
+Nov 12 00:00:12 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:13 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:13 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:13 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:13 172.30.16.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Nov 12 00:00:13 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Req) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/0000.0000.0000/161.8.33.4/00:00:12 YEKT Fri Nov 12 2021])
+Nov 12 00:00:15 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:16 10.8.159.144 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:00:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:00:15 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:00:16 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:00:15 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2199) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:00:16 10.11.15.10 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/12, changed state to up
+Nov 12 00:00:17 10.11.15.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to up
+Nov 12 00:00:16 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:00:16 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:17 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:00:17 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:00:21 10.8.240.14 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet3/0/20, changed state to up
+Nov 12 00:00:22 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:00:22 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:22 10.11.15.10 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/12, changed state to up
+Nov 12 00:00:23 10.11.15.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/12, changed state to up
+Nov 12 00:00:23 161.8.37.28 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Nov 12 00:00:24 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:25 161.8.37.2 2023355: Nov 12 00:00:24: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/16 (81), with 2emp_2950g FastEthernet0/1 (8).
+Nov 12 00:00:25 172.30.70.43 %PORT_SECURITY-2-PSECURE_VIOLATION: Security violation occurred, caused by MAC address a45d.361a.022d on port GigabitEthernet1/0/11.
+Nov 12 00:00:25 10.8.175.6 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/32 (not half duplex), with 2960t.mmk.ru FastEthernet0/7 (half duplex).
+Nov 12 00:00:25 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto2 FastEthernet0 (full duplex).
+Nov 12 00:00:27 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.14.9 Vlan14
+Nov 12 00:00:29 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09/ip-[161.8.22.108]/fault-F3083] For Tenant DC, application EPG EPG_HX_Vlan22, ACI has detected multiple MACs using the same IP address 161.8.22.108. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09; uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:29 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08/ip-[161.8.22.108]/fault-F3083] For Tenant DC, application EPG EPG_HX_Vlan22, ACI has detected multiple MACs using the same IP address 161.8.22.108. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09; uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:29 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:29 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:28 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:30 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:00:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:00:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:00:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:31 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/1
+Nov 12 00:00:31 161.8.36.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/39, changed state to up
+Nov 12 00:00:31 10.8.159.144 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:32 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto1 FastEthernet0 (full duplex).
+Nov 12 00:00:33 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:00:34 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:00:33 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:00:33 10.8.159.144 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:34 161.8.250.17 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/1 (1), with StMasterAEL-IE3000 FastEthernet1/4 (6).
+Nov 12 00:00:35 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:35 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:34 10.8.53.13 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/1, putting Gi1/0/1 in err-disable state
+Nov 12 00:00:34 10.8.37.84 %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: infoblox] [Source: 10.9.0.15] [localport: 22] at 00:00:34 URAL Fri Nov 12 2021
+Nov 12 00:00:34 161.8.37.11 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/19 (not half duplex), with AIR-lpc8_abk-energosluzhbi GigabitEthernet0 (half duplex).
+Nov 12 00:00:35 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2203) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:00:35 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9464 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:35 192.168.129.143 %SW_DAI-4-DHCP_SNOOPING_DENY: 1 Invalid ARPs (Res) on Gi1/0/8, vlan 162.([3c2a.f4e4.8cff/169.254.88.147/04d4.c492.99b4/192.168.162.14/00:00:35 YEKT Fri Nov 12 2021])
+Nov 12 00:00:38 192.168.129.1 %SNMP-W-SNMPAUTHFAIL: Access attempted by unauthorized NMS
+Nov 12 00:00:39 10.8.37.84 %SYS-6-LOGOUT: User infoblox has exited tty session 2(10.9.0.15)
+Nov 12 00:00:39 172.30.81.42 %SEC-6-IPACCESSLOGRL: access-list logging rate-limited or missed 15 packets
+Nov 12 00:00:39 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(137) -> 161.8.46.255(137), 99 packets 
+Nov 12 00:00:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:41 10.8.167.2 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/44, changed state to down
+Nov 12 00:00:42 10.8.167.2 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/44, changed state to down
+Nov 12 00:00:43 10.8.141.152 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/4 (not half duplex), with AIR-DC_DP10A-PU GigabitEthernet0 (half duplex).
+Nov 12 00:00:44 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:44 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:45 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:45 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:45 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:45 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.88 Vlan15
+Nov 12 00:00:46 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:46 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9464 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:47 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08/ip-[161.8.22.108]/fault-F3083] For Tenant DC, application EPG EPG_HX_Vlan22, ACI has detected multiple MACs using the same IP address 161.8.22.108. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09; uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:47 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09/ip-[161.8.22.108]/fault-F3083] For Tenant DC, application EPG EPG_HX_Vlan22, ACI has detected multiple MACs using the same IP address 161.8.22.108. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:09; uni/tn-DC/ap-AP_HX/epg-EPG_HX_Vlan22/cep-00:21:28:E8:03:08; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:00:47 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:00:47 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:00:47 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to down
+Nov 12 00:00:48 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to down
+Nov 12 00:00:47 161.8.146.212 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to down
+Nov 12 00:00:48 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2205) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:00:48 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:48 161.8.146.212 %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+Nov 12 00:00:49 10.8.207.47 %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: infoblox] [Source: 10.9.0.15] [localport: 22] at 00:00:49 YEKT Fri Nov 12 2021
+Nov 12 00:00:50 10.9.16.55 %LOG_LOCAL7-3-SYSTEM_MSG [F3696][raised_clearing][coop-ep-dampening][major][sys/coop/inst/dom-overlay-1/fault-F3696] 1 EPs are in freeze state.
+Nov 12 00:00:50 10.9.16.55 %LOG_LOCAL7-3-SYSTEM_MSG [F3696][raised_clearing][coop-ep-dampening][major][sys/coop/inst/dom-overlay-1/fault-F3696] 1 EPs are in freeze state.
+Nov 12 00:00:49 10.11.251.2 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to down
+Nov 12 00:00:49 161.8.37.40 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/1 (not half duplex), with C2960-kipangc GigabitEthernet0/2 (half duplex).
+Nov 12 00:00:50 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:51 161.8.36.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/23, changed state to down
+Nov 12 00:00:51 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:52 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to up
+Nov 12 00:00:51 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/18 (173), with abk10-npo-2960G GigabitEthernet0/17 (37).
+Nov 12 00:00:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/17 (37), with abk10-npo-2960G GigabitEthernet0/18 (173).
+Nov 12 00:00:52 161.8.146.212 %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to up
+Nov 12 00:00:53 161.8.146.212 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to up
+Nov 12 00:00:52 10.11.251.2 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/18, changed state to up
+Nov 12 00:00:53 10.11.251.2 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/18, changed state to up
+Nov 12 00:00:53 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2205) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:00:53 161.8.36.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/23, changed state to up
+Nov 12 00:00:54 161.8.36.10 %LINK-3-UPDOWN: Interface FastEthernet0/20, changed state to up
+Nov 12 00:00:55 161.8.36.10 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/20, changed state to up
+Nov 12 00:00:54 10.8.175.3 %IOSXE_INFRA-6-PROCPATH_CLIENT_HOG: IOS shim client 'chasfs' has taken 288 msec (runtime: 288 msec) to process a 'stack chasfs fd' message
+Nov 12 00:00:55 10.8.37.33 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/10 (not half duplex), with AIR-kkc_tol2 GigabitEthernet0 (half duplex).
+Nov 12 00:00:55 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to up
+Nov 12 00:00:56 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:00:56 172.30.14.220 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/11, changed state to up
+Nov 12 00:00:58 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:00:59 161.8.248.85 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet1/0/1 (248), with Switch FastEthernet0/3 (1).
+Nov 12 00:01:00 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:00 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:00 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to down
+Nov 12 00:01:00 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:01 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to down
+Nov 12 00:01:03 10.8.37.82 %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: infoblox] [Source: 10.9.0.13] [localport: 23] at 00:01:03 URAL Fri Nov 12 2021
+Nov 12 00:01:02 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:03 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:03 10.8.37.83 %SYS-6-LOGOUT: User infoblox has exited tty session 2(10.9.0.13)
+Nov 12 00:01:02 161.8.159.2 %SFF8472-5-THRESHOLD_VIOLATION: Gi1/1/1: Rx power low alarm; Operating value: -30.0 dBm, Threshold value: -23.0 dBm. (domna-ivc-1)
+Nov 12 00:01:02 161.8.159.2 %SFF8472-5-THRESHOLD_VIOLATION: Gi1/0/4: Rx power low alarm; Operating value: -32.2 dBm, Threshold value: -23.0 dBm. (domna-ivc-1)
+Nov 12 00:01:04 10.8.37.84 %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: infoblox] [Source: 10.9.0.13] [localport: 23] at 00:01:04 URAL Fri Nov 12 2021
+Nov 12 00:01:04 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/24
+Nov 12 00:01:04 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/1
+Nov 12 00:01:04 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:01:04 10.8.37.84 %SYS-6-LOGOUT: User infoblox has exited tty session 3(10.9.0.13)
+Nov 12 00:01:05 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to up
+Nov 12 00:01:06 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to up
+Nov 12 00:01:05 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.88 Vlan15
+Nov 12 00:01:06 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:05 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:05 172.30.14.210 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:01:07 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/24 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:06 172.30.14.210 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:01:07 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:07 10.8.53.13 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/24, putting Gi1/0/24 in err-disable state
+Nov 12 00:01:07 172.30.70.27 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet1/0/50 (115), with Cisco GigabitEthernet0/16 (1).
+Nov 12 00:01:09 172.30.81.22 001096: Nov 12 00:01:08: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet3/2, changed state to down
+Nov 12 00:01:09 172.30.70.60 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/46
+Nov 12 00:01:09 172.30.14.210 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/7, changed state to up
+Nov 12 00:01:10 172.30.14.210 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to up
+Nov 12 00:01:11 172.30.81.22 001097: Nov 12 00:01:10: %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet3/2, changed state to up
+Nov 12 00:01:11 10.8.31.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/45, changed state to up
+Nov 12 00:01:12 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:01:12 172.30.70.60 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/46, putting Gi1/0/46 in err-disable state
+Nov 12 00:01:12 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2209) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:01:13 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:01:14 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:15 10.8.159.19 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+Nov 12 00:01:15 10.8.175.6 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/32 (not half duplex), with 2960t.mmk.ru FastEthernet0/7 (half duplex).
+Nov 12 00:01:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:01:16 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:01:16 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:01:17 10.8.159.19 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+Nov 12 00:01:18 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:18 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:18 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:01:18 10.8.31.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/45, changed state to down
+Nov 12 00:01:19 10.8.31.13 %LINK-3-UPDOWN: Interface FastEthernet0/45, changed state to down
+Nov 12 00:01:19 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:01:19 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto9 FastEthernet0 (full duplex).
+Nov 12 00:01:20 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2211) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:01:20 161.8.37.41 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/2 (not full duplex), with Sw2960_Disp GigabitEthernet1/0/1 (full duplex).
+Nov 12 00:01:21 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:01:22 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:01:22 10.8.159.16 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/8, changed state to down
+Nov 12 00:01:23 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:01:24 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:01:25 161.8.37.2 2023356: Nov 12 00:01:24: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/16 (81), with 2emp_2950g FastEthernet0/1 (8).
+Nov 12 00:01:25 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:25 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto2 FastEthernet0 (full duplex).
+Nov 12 00:01:26 10.8.175.12 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Fa1/0/18
+Nov 12 00:01:26 10.8.175.12 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Fa1/0/3
+Nov 12 00:01:28 10.8.175.12 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port FastEthernet1/0/18 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:28 10.8.175.12 %PM-4-ERR_DISABLE: bpduguard error detected on Fa1/0/18, putting Fa1/0/18 in err-disable state
+Nov 12 00:01:28 10.8.175.12 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port FastEthernet1/0/3 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:28 10.8.175.12 %PM-4-ERR_DISABLE: bpduguard error detected on Fa1/0/3, putting Fa1/0/3 in err-disable state
+Nov 12 00:01:30 161.8.117.203 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/23, changed state to down
+Nov 12 00:01:30 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to down
+Nov 12 00:01:31 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to down
+Nov 12 00:01:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:01:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:01:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:01:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:01:32 10.8.99.4 %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: infoblox] [Source: 10.9.0.13] [localport: 23] at 00:01:32 YEKT Fri Nov 12 2021
+Nov 12 00:01:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:32 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:32 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:01:31 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.14.9 Vlan14
+Nov 12 00:01:32 161.8.37.11 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/19 (not half duplex), with AIR-lpc8_abk-energosluzhbi GigabitEthernet0 (half duplex).
+Nov 12 00:01:32 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:32 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto1 FastEthernet0 (full duplex).
+Nov 12 00:01:32 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:33 10.8.215.21 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/8, changed state to down
+Nov 12 00:01:35 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:35 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:34 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:01:35 10.8.215.21 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/8, changed state to up
+Nov 12 00:01:35 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:36 10.8.37.28 %SFF8472-5-THRESHOLD_VIOLATION: Gi0/1: Rx power low warning; Operating value: -20.8 dBm, Threshold value: -19.0 dBm.
+Nov 12 00:01:38 161.8.36.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/26, changed state to down
+Nov 12 00:01:40 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/24 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:40 10.8.53.13 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/24, putting Gi1/0/24 in err-disable state
+Nov 12 00:01:40 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/1 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:39 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2215) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:01:39 172.30.81.42 %SEC-6-IPACCESSLOGRL: access-list logging rate-limited or missed 22 packets
+Nov 12 00:01:39 10.8.159.144 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:40 161.8.36.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/26, changed state to up
+Nov 12 00:01:40 161.8.37.4 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/13, changed state to down
+Nov 12 00:01:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:41 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:42 161.8.37.4 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/13, changed state to up
+Nov 12 00:01:43 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:43 161.8.159.2 %SFF8472-5-THRESHOLD_VIOLATION: Gi1/1/2: Rx power low alarm; Operating value: -28.5 dBm, Threshold value: -23.0 dBm.
+Nov 12 00:01:44 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2215) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:01:45 172.30.70.60 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/46 with BPDU Guard enabled. Disabling port.
+Nov 12 00:01:45 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.89 Vlan15
+Nov 12 00:01:46 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:46 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:01:45 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:01:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:01:45 172.30.70.60 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/46, putting Gi1/0/46 in err-disable state
+Nov 12 00:01:46 10.8.141.152 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/4 (not half duplex), with AIR-DC_DP10A-PU GigabitEthernet0 (half duplex).
+Nov 12 00:01:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:01:47 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:48 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:48 161.8.37.25 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet1/4 (6), with masterael_2940-8tf FastEthernet0/1 (1).
+Nov 12 00:01:51 10.0.1.11 %%10L2INF/2/PORT LINK STATUS CHANGE(t):- 1 -  Trap 1.3.6.1.6.3.1.1.5.3(linkDown): portIndex is 4227770, ifAdminStatus is 1, ifOperStatus is 2 
+Nov 12 00:01:51 10.0.1.11 %%10L2INF/5/PORT LINK STATUS CHANGE(l):- 1 -  Ethernet1/0/19 is DOWN  
+Nov 12 00:01:50 172.30.48.254 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet6/0/16, changed state to down
+Nov 12 00:01:51 172.30.48.254 %LINK-3-UPDOWN: Interface GigabitEthernet6/0/16, changed state to down
+Nov 12 00:01:52 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:01:52 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2217) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:01:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/18 (173), with abk10-npo-2960G GigabitEthernet0/17 (37).
+Nov 12 00:01:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/17 (37), with abk10-npo-2960G GigabitEthernet0/18 (173).
+Nov 12 00:01:54 10.0.1.11 %%10L2INF/2/PORT LINK STATUS CHANGE(t):- 1 -  Trap 1.3.6.1.6.3.1.1.5.4(linkUp): portIndex is 4227770, ifAdminStatus is 1, ifOperStatus is 1 
+Nov 12 00:01:54 10.0.1.11 %%10L2INF/5/PORT LINK STATUS CHANGE(l):- 1 -  Ethernet1/0/19 is UP  
+Nov 12 00:01:53 172.30.48.254 %LINK-3-UPDOWN: Interface GigabitEthernet6/0/16, changed state to up
+Nov 12 00:01:54 172.30.48.254 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet6/0/16, changed state to up
+Nov 12 00:01:55 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:01:55 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.89 Vlan15
+Nov 12 00:01:56 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:01:57 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2217) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:01:57 172.30.14.220 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/11, changed state to up
+Nov 12 00:01:58 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to up
+Nov 12 00:01:58 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:01:58 192.168.75.213 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:01:59 192.168.75.213 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:02:00 10.0.1.12 %%10DEV/2/FAN STATE CHANGE TO FAILURE(t):- 1 -  Trap 1.3.6.1.4.1.43.45.1.2.23.1.12.1.6(fanfailure): fan ID is 1 
+Nov 12 00:02:00 10.0.1.12 %%10DEV/5/DEV_LOG(l):- 1 - Fan 1 failed
+Nov 12 00:01:59 161.8.248.85 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet1/0/1 (248), with Switch FastEthernet0/3 (1).
+Nov 12 00:02:00 161.8.146.108 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/5, changed state to up
+Nov 12 00:02:00 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:00 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:01 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:01 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:02 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:02 192.168.75.213 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to up
+Nov 12 00:02:03 192.168.75.213 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+Nov 12 00:02:03 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:03 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to up
+Nov 12 00:02:04 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:04 10.8.175.6 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/32 (not half duplex), with 2960t.mmk.ru FastEthernet0/7 (half duplex).
+Nov 12 00:02:04 161.8.54.24 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/11 (44), with kkc-PerelivChuguna FastEthernet0/1 (56).
+Nov 12 00:02:04 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:06 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:06 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:05 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.90 Vlan15
+Nov 12 00:02:05 172.30.70.27 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet1/0/50 (115), with Cisco GigabitEthernet0/16 (1).
+Nov 12 00:02:06 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:08 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:10 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:10 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/24
+Nov 12 00:02:10 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/1
+Nov 12 00:02:11 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2221) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:02:13 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/24 with BPDU Guard enabled. Disabling port.
+Nov 12 00:02:12 161.8.142.7 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/37, changed state to down
+Nov 12 00:02:12 172.30.70.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/22, changed state to down
+Nov 12 00:02:13 172.30.48.242 %SW_MATM-4-MACFLAP_NOTIF: Host 0090.e800.0081 in vlan 166 is flapping between port Gi1/0/7 and port Gi1/0/10
+Nov 12 00:02:13 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.13.251 Vlan13
+Nov 12 00:02:13 10.8.53.13 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/24, putting Gi1/0/24 in err-disable state
+Nov 12 00:02:13 10.8.31.13 %LINK-3-UPDOWN: Interface FastEthernet0/45, changed state to up
+Nov 12 00:02:14 10.8.31.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/45, changed state to up
+Nov 12 00:02:14 172.30.70.13 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/22, changed state to up
+Nov 12 00:02:15 161.8.142.7 %LINK-3-UPDOWN: Interface FastEthernet0/37, changed state to up
+Nov 12 00:02:16 161.8.142.7 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/37, changed state to up
+Nov 12 00:02:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:15 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:15 172.30.70.60 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/46
+Nov 12 00:02:16 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:17 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.88af in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:17 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:17 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:16 10.8.159.19 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to down
+Nov 12 00:02:17 10.8.159.19 %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to down
+Nov 12 00:02:16 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2221) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:02:18 172.30.70.60 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/46 with BPDU Guard enabled. Disabling port.
+Nov 12 00:02:18 172.30.70.60 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/46, putting Gi1/0/46 in err-disable state
+Nov 12 00:02:19 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:19 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:19 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto9 FastEthernet0 (full duplex).
+Nov 12 00:02:21 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:21 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8/ip-[10.9.24.93]/fault-F3083] For Tenant DC, application EPG EPG_SPDN, ACI has detected multiple MACs using the same IP address 10.9.24.93. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:FB:BD:E5; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN/cep-00:14:4F:F9:A2:C8; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:21 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:21 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E/ip-[10.9.25.18]/fault-F3083] For Tenant DC, application EPG EPG_SPDN_Secure_Vlan2503, ACI has detected multiple MACs using the same IP address 10.9.25.18. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FB:6C:89; uni/tn-DC/ap-AP_CIS/epg-EPG_SPDN_Secure_Vlan2503/cep-00:14:4F:FA:18:9E; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:20 161.8.37.41 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/2 (not full duplex), with Sw2960_Disp GigabitEthernet1/0/1 (full duplex).
+Nov 12 00:02:20 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:21 10.8.159.19 %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+Nov 12 00:02:22 10.8.159.19 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+Nov 12 00:02:25 161.8.37.2 2023357: Nov 12 00:02:24: %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/16 (81), with 2emp_2950g FastEthernet0/1 (8).
+Nov 12 00:02:24 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2223) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:02:25 161.8.67.232 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0 (not half duplex), with cto-C2960X-48 GigabitEthernet1/0/2 (half duplex).
+Nov 12 00:02:25 161.8.67.239 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0 (not half duplex), with cto-C2960X-48 GigabitEthernet1/0/2 (half duplex).
+Nov 12 00:02:25 161.8.67.231 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0 (not half duplex), with cto-C2960X-48 GigabitEthernet1/0/2 (half duplex).
+Nov 12 00:02:26 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][soaking_clearing][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:26 10.9.16.13 %LOG_LOCAL7-3-SYSTEM_MSG [F3083][deleted][config-error][major][uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0/ip-[161.8.229.232]/fault-F3083] For Tenant DC, application EPG EPG_Vlan966, ACI has detected multiple MACs using the same IP address 161.8.229.232. MACs: Context: 2752512. fvCEps: uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-F4:03:43:DB:00:D0; uni/tn-DC/ap-AP_CIS/epg-EPG_Vlan966/cep-00:50:56:60:76:FB; on node non-retrievable(3:12) of fabric non-retrievable(3:21363) with a hostname non-retrievable(3:13)
+Nov 12 00:02:25 161.8.146.24 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/2 (not full duplex), with radio-cto2 FastEthernet0 (full duplex).
+Nov 12 00:02:27 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9464 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:27 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:02:28 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:02:27 192.168.75.213 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:02:27 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:28 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to down
+Nov 12 00:02:28 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.12.183 Vlan12
+Nov 12 00:02:29 192.168.75.213 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to up
+Nov 12 00:02:29 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:29 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2223) -> 161.8.22.2(53), 1 packet 
+Nov 12 00:02:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:30 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:31 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:30 172.30.70.43 %PORT_SECURITY-2-PSECURE_VIOLATION: Security violation occurred, caused by MAC address a45d.361a.022d on port GigabitEthernet1/0/11.
+Nov 12 00:02:31 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:32 172.30.14.210 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/7, changed state to down
+Nov 12 00:02:32 10.8.215.21 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/8, changed state to down
+Nov 12 00:02:33 10.8.215.21 %LINK-3-UPDOWN: Interface GigabitEthernet0/8, changed state to down
+Nov 12 00:02:33 10.8.117.12 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:02:34 10.8.117.12 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/4, changed state to down
+Nov 12 00:02:33 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:02:34 161.8.250.17 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet0/1 (1), with StMasterAEL-IE3000 FastEthernet1/4 (6).
+Nov 12 00:02:34 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:35 10.8.23.144 %LINK-3-UPDOWN: Interface FastEthernet0/4, changed state to down
+Nov 12 00:02:35 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:35 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:02:36 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:02:36 10.8.215.21 %LINK-3-UPDOWN: Interface GigabitEthernet0/8, changed state to up
+Nov 12 00:02:37 10.8.215.21 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/8, changed state to up
+Nov 12 00:02:36 10.8.167.2 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/25, changed state to up
+Nov 12 00:02:37 10.8.167.2 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/25, changed state to up
+Nov 12 00:02:36 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:39 10.8.23.144 %LINK-3-UPDOWN: Interface FastEthernet0/4, changed state to up
+Nov 12 00:02:38 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:39 10.8.23.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/4, changed state to up
+Nov 12 00:02:39 161.8.37.11 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on FastEthernet0/19 (not half duplex), with AIR-lpc8_abk-energosluzhbi GigabitEthernet0 (half duplex).
+Nov 12 00:02:40 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:02:41 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to down
+Nov 12 00:02:40 172.30.16.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+Nov 12 00:02:41 161.8.37.4 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/13, changed state to down
+Nov 12 00:02:42 161.8.37.4 %LINK-3-UPDOWN: Interface GigabitEthernet0/13, changed state to down
+Nov 12 00:02:42 10.8.141.152 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/4 (not half duplex), with AIR-DC_DP10A-PU GigabitEthernet0 (half duplex).
+Nov 12 00:02:42 172.30.16.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Nov 12 00:02:43 172.30.48.242 %SW_MATM-4-MACFLAP_NOTIF: Host 0090.e800.0081 in vlan 166 is flapping between port Gi1/0/7 and port Gi1/0/10
+Nov 12 00:02:43 10.8.53.13 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/24
+Nov 12 00:02:43 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:43 161.8.146.24 %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:02:44 161.8.146.24 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+Nov 12 00:02:44 161.8.36.14 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2/0/19, changed state to down
+Nov 12 00:02:45 161.8.36.14 %LINK-3-UPDOWN: Interface FastEthernet2/0/19, changed state to down
+Nov 12 00:02:44 172.30.81.42 %SEC-6-IPACCESSLOGP: list inNTA denied udp 161.8.46.156(2227) -> 161.8.91.60(53), 1 packet 
+Nov 12 00:02:45 161.8.37.4 %LINK-3-UPDOWN: Interface GigabitEthernet0/13, changed state to up
+Nov 12 00:02:46 161.8.37.4 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/13, changed state to up
+Nov 12 00:02:46 10.8.53.13 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/1 with BPDU Guard enabled. Disabling port.
+Nov 12 00:02:45 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:45 10.8.134.34 %ADJ-3-RESOLVE_REQ: Adj resolve request: Failed to resolve 10.11.15.91 Vlan15
+Nov 12 00:02:45 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.c25a in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7358 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:46 10.8.53.13 %PM-4-ERR_DISABLE: bpduguard error detected on Gi1/0/1, putting Gi1/0/1 in err-disable state
+Nov 12 00:02:46 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.9704 in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:47 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.88af in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:47 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.6707 in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:47 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down
+Nov 12 00:02:47 161.8.36.14 %LINK-3-UPDOWN: Interface FastEthernet2/0/19, changed state to up
+Nov 12 00:02:48 161.8.36.14 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet2/0/19, changed state to up
+Nov 12 00:02:48 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.b292 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:48 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.f25c in vlan 109 is flapping between port Gi1/0/1 and port Gi2/0/1
+Nov 12 00:02:48 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d18f in vlan 109 is flapping between port Gi2/0/1 and port Gi1/0/1
+Nov 12 00:02:48 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 901b.0eae.d1b3 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:48 161.8.37.25 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on FastEthernet1/4 (6), with masterael_2940-8tf FastEthernet0/1 (1).
+Nov 12 00:02:48 161.8.146.103 %SYS-6-LOGOUT: User infoblox has exited tty session 2(10.9.0.13)
+Nov 12 00:02:49 172.30.70.60 %PM-4-ERR_RECOVER: Attempting to recover from bpduguard err-disable state on Gi1/0/46
+Nov 12 00:02:49 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.2d96 in vlan 109 is flapping between port Gi2/0/3 and port Gi1/0/3
+Nov 12 00:02:49 172.30.70.55 %SW_MATM-4-MACFLAP_NOTIF: Host 0050.56a3.7caf in vlan 109 is flapping between port Gi1/0/3 and port Gi2/0/3
+Nov 12 00:02:49 161.8.37.40 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet1/0/1 (not half duplex), with C2960-kipangc GigabitEthernet0/2 (half duplex).
+Nov 12 00:02:50 10.8.37.33 %CDP-4-DUPLEX_MISMATCH: duplex mismatch discovered on GigabitEthernet0/10 (not half duplex), with AIR-kkc_tol2 GigabitEthernet0 (half duplex).
+Nov 12 00:02:50 161.8.37.28 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to down
+Nov 12 00:02:50 10.8.48.2 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/32, changed state to down
+Nov 12 00:02:52 172.30.70.60 %SPANTREE-2-BLOCK_BPDUGUARD: Received BPDU on port Gi1/0/46 with BPDU Guard enabled. Disabling port.
+Nov 12 00:02:51 172.30.48.254 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet6/0/16, changed state to down
+Nov 12 00:02:51 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to up
+Nov 12 00:02:52 172.30.48.254 %LINK-3-UPDOWN: Interface GigabitEthernet6/0/16, changed state to down
+Nov 12 00:02:52 161.8.146.15 %LINK-3-UPDOWN: Interface FastEthernet0/10, changed state to up
+Nov 12 00:02:53 161.8.146.15 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/10, changed state to up
+Nov 12 00:02:52 161.8.37.28 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/1, changed state to up
+Nov 12 00:02:52 10.8.48.3 %ILPOWER-7-DETECT: Interface Gi1/0/45: Power Device detected: IEEE PD
+Nov 12 00:02:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/18 (173), with abk10-npo-2960G GigabitEthernet0/17 (37).
+Nov 12 00:02:52 161.8.54.6 %CDP-4-NATIVE_VLAN_MISMATCH: Native VLAN mismatch discovered on GigabitEthernet0/17 (37), with abk10-npo-2960G GigabitEthernet0/18 (173).
+Nov 12 00:02:52 10.8.48.2 %LINEPROTO-5-UPDOWN: Line protocol on Interface FastEthernet0/32, changed state to up
+Nov 12 00:02:53 10.8.159.144 %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/6, changed state to down

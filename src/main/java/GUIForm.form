@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUIForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="515" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="c14c7">
+        <constraints border-constraint="West"/>
+      </vspacer>
+      <vspacer id="eb4ac">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <hspacer id="9c2f1">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <grid id="ca719" layout-manager="FlowLayout" hgap="5" vgap="10" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <autoscrolls value="false"/>
+          <inheritsPopupMenu value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="cbaec" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="4e891" class="javax.swing.JTextField" binding="filePath">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <opaque value="true"/>
+                  <preferredSize width="400" height="30"/>
+                  <text value="Путь к файлу или папке"/>
+                </properties>
+              </component>
+              <component id="6e244" class="javax.swing.JButton" binding="selectButton">
+                <constraints border-constraint="East"/>
+                <properties>
+                  <text value="Обзор"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="9b201" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints/>
+            <properties>
+              <alignmentX value="0.5"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9eff5" class="javax.swing.JButton" binding="actionButton">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <enabled value="true"/>
+                  <label value=""/>
+                  <text value=""/>
+                  <visible value="false"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
